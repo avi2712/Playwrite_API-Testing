@@ -1,7 +1,8 @@
 import { test, expect } from '@playwright/test';
 
 test('TC_002 Login happy path with valid data', async ({ request }) => {
-
+ 
+  // dummhyh data 
   const response = await request.post('https://api.eventhub.rahulshettyacademy.com/api/auth/login',
     {
       data:{
@@ -33,7 +34,7 @@ test('TC_003 Login sad path', async ({ request }) => {
   );
 
   expect((await response).status()).toBe(400);
-
+//validation
   const responseBody = await response.json();
 
   // const sucessCheck = responseBody.success;

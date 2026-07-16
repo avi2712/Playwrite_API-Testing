@@ -11,6 +11,8 @@ const response = await request.post('https://api.eventhub.rahulshettyacademy.com
     }
   );
 
+
+  // testing
   const responseBody = await response.json();
   const token = responseBody.token;
   console.log(token);
