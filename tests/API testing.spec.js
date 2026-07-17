@@ -5,7 +5,7 @@ test('TC_001 Register with valid data', async ({ request }) => {
   // const response = request.post('https://api.eventhub.rahulshettyacademy.com/api/auth/register',
   //   {
   //     headers:{
-  //       'accept':'application/json',
+  //       'accept':'application/json'
   //       'content-type':'application/json'
   //     },
   //     data:{
